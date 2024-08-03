@@ -1,0 +1,148 @@
+
+Um relatório bem estruturado garante que todos os aspectos do bug sejam descritos claramente, o que facilita a compreensão do problema.
+
+
+id:1
+titulo: não é possível remover curso existente
+ambiente: google chrome
+descrição: quando  clicamos no botão e tentamos remover um curso existente, nada acontece 
+
+passos:
+1- acessar a pagina de cadastro de cursos
+2- cadastre um curso
+3- clicar no botão ''listar cursos''
+4- clicar no botão ''excluir curso''
+
+RE: uma mensagem com ''curso removido com sucesso'' deverá aparecer
+RR: uma mensagem com ''curso excluído com sucesso'' aparece, mas o curso não é excluído.
+Prioridade: média
+
+
+id:2
+titulo: está aceitando cadastro de curso com formulário em branco
+ambiente: google chrome
+descrição: quando  clicamos no botão cadastrar curso com formulário em branco, o curso é criado. 
+
+passos:
+1- acessar a pagina de cadastro de cursos
+2- cadastre um curso sem preencher nenhum campo
+
+RE: uma mensagem com ''os campos deverão ser preenchidos'' deverá aparecer
+RR: uma mensagem com ''curso cadastrado com sucesso'' aparece
+Prioridade: média
+
+
+id:3
+titulo: está aceitando cadastro de curso com dados inválidos
+ambiente: google chrome
+descrição: quando  clicamos no botão cadastrar curso com dados inválidos, o curso é criado. 
+
+passos:
+1- acessar a pagina de cadastro de cursos
+2- cadastre um curso com data de início no passado
+
+RE: uma mensagem com "A data de início não pode ser no passado"
+ E o curso não deve ser cadastrado.
+RR: uma mensagem com ''curso cadastrado com sucesso'' aparece
+Prioridade: média
+
+
+
+id:4
+titulo: está aceitando cadastro de curso com duplicidade de título
+ambiente: google chrome
+descrição: quando  clicamos no botão cadastrar curso com título já existentes, o curso é criado. 
+
+passos:
+1- acessar a pagina de cadastro de cursos
+2- cadastre um curso com curso já cadastrado
+
+RE: uma mensagem com ''já existe um curso com esse título'' deverá ser exibida
+RR: uma mensagem com ''curso cadastrado com sucesso'' aparece
+Prioridade: média
+
+
+id:5
+titulo: está aceitando cadastro de curso com título em branco
+ambiente: google chrome
+descrição: quando  clicamos no botão cadastrar curso com título em branco, o curso é criado. 
+
+passos:
+1- acessar a pagina de cadastro de cursos
+2- cadastre um curso sem preencher o título
+
+RE: uma mensagem com ''os campo ''título'' deverá ser preenchido'' deverá aparecer
+RR: uma mensagem com ''curso cadastrado com sucesso'' aparece
+Prioridade: média
+
+
+id:6
+titulo: está aceitando cadastro de curso com título contendo caracteres especiais
+ambiente: google chrome
+descrição: quando  clicamos no botão cadastrar curso com título contendo caracteres especiais, o curso é criado. 
+
+passos:
+1- acessar a pagina de cadastro de cursos
+2- cadastre um curso com titulo contendo caracteres especiais
+
+RE: uma mensagem com ''os campo ''título'' deverá ser preenchido corretamente'' deverá aparecer
+
+RR: uma mensagem com ''curso cadastrado com sucesso'' aparece
+Prioridade: média
+
+
+
+id:7
+titulo: está aceitando cadastro de curso com campo ''instrutor'' vazio
+ambiente: google chrome
+descrição: quando  clicamos no botão cadastrar curso com campo ''instrutor'' vazio , o curso é criado. 
+
+passos:
+1- acessar a pagina de cadastro de cursos
+2- cadastre um curso com campo ''instrutor'' vazio
+
+RE: uma mensagem com ''os campo ''instrutor'' deverá ser preenchido corretamente'' deverá aparecer
+
+RR: uma mensagem com ''curso cadastrado com sucesso'' aparece
+Prioridade: média
+
+
+
+id:8
+titulo: está aceitando cadastro de curso com numero de vagas negativo
+ambiente: google chrome
+descrição: quando  clicamos no botão cadastrar curso com numero de vagas negativo , o curso é criado. 
+
+passos:
+1- acessar a pagina de cadastro de cursos
+2- cadastre um curso com campo ''vaga'' com número negativo
+
+RE: o curso não deve ser adicionado à lista de cursos .E deve ser exibida a mensagem
+ "O número de vagas não pode ser negativo."
+
+RR: uma mensagem com ''curso cadastrado com sucesso'' aparece
+Prioridade: média
+
+
+
+id:9
+titulo: está aceitando cadastro de curso com numero de vagas zerado
+ambiente: google chrome
+descrição: quando  clicamos no botão cadastrar curso com numero de vagas zerado , o curso é criado. 
+
+passos:
+1- acessar a pagina de cadastro de cursos
+2- cadastre um curso com campo ''vaga'' com número zero
+
+RE: o curso não deve ser adicionado à lista de cursos .E deve ser exibida a mensagem
+ "O número de vagas não pode ser zero."
+
+RR: uma mensagem com ''curso cadastrado com sucesso'' aparece
+Prioridade: média
+
+
+
+
+
+
+
