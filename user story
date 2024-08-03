@@ -1,0 +1,60 @@
+# Histórias de Usuário - Administrador
+
+## História de Usuário 1: Gerenciar Cursos
+
+**Como** um administrador,  
+**Eu quero** criar, editar e excluir cursos,  
+**Para que** eu possa manter o catálogo de cursos atualizado e relevante.
+
+### Critérios de Aceitação:
+- O administrador deve poder criar um novo curso, fornecendo:
+  - Título
+  - Descrição
+  - Instrutor
+  - URL da imagem de capa
+  - Data de início
+  - Data de fim
+  - Número de vagas
+  - Tipo de curso
+- O administrador deve poder excluir um curso, com uma confirmação de exclusão.
+- As mudanças devem refletir imediatamente no catálogo de cursos visível para os funcionários.
+
+---
+
+## História de Usuário 2: Gerenciar Inscrições
+
+**Como** um administrador,  
+**Eu quero** visualizar e gerenciar as inscrições dos funcionários,  
+**Para que** eu possa acompanhar a participação e resolver quaisquer problemas relacionados à inscrição.
+
+### Critérios de Aceitação:
+- O administrador deve poder visualizar uma lista de todos os funcionários inscritos em cada curso.
+- O administrador deve poder remover um funcionário de um curso, se necessário.
+- O administrador deve poder exportar dados de inscrições para relatórios.
+
+---
+
+## História de Usuário 3: Gerenciar Instrutores
+
+**Como** um administrador,  
+**Eu quero** adicionar, editar e remover instrutores,  
+**Para que** eu possa garantir que os cursos sejam ministrados por profissionais qualificados.
+
+### Critérios de Aceitação:
+- O administrador deve poder adicionar novos instrutores.
+- O administrador deve poder editar as informações dos instrutores existentes.
+- O administrador deve poder remover instrutores, com uma confirmação de exclusão.
+- Instrutores removidos não devem aparecer em futuras listas de cursos.
+
+---
+
+## História de Usuário 4: Monitorar o Desempenho do Curso
+
+**Como** um administrador,  
+**Eu quero** acompanhar o desempenho dos cursos (como taxa de conclusão e feedback dos funcionários),  
+**Para que** eu possa avaliar a eficácia dos cursos e identificar áreas para melhorias.
+
+### Critérios de Aceitação:
+- O administrador deve ter acesso a relatórios sobre a taxa de conclusão dos cursos e feedback dos funcionários.
+- O administrador deve poder filtrar e visualizar dados por curso, instrutor e período.
+- O administrador deve poder gerar relatórios exportáveis em formatos como CSV ou PDF.
